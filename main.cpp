@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("Focus3", "Main");
+    engine.loadFromModule("FocusScope1", "Main");
 
     return app.exec();
 }
